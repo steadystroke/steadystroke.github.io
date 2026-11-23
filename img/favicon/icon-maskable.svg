@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>주식 차트를 보고 있는 사람</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d6bff"/>
+      <stop offset="1" stop-color="#1b3bb8"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9effc"/>
+    </linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc533"/>
+      <stop offset="1" stop-color="#f59f0a"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g>
+  <!-- chart screen -->
+  <rect x="100" y="114" width="312" height="226" rx="26" fill="#0a1a4a" opacity=".28" transform="translate(0 8)"/>
+  <rect x="100" y="106" width="312" height="226" rx="26" fill="url(#screen)"/>
+  <g stroke="#d5def2" stroke-width="3" stroke-linecap="round">
+    <path d="M124 164H388M124 222H388M124 280H388"/>
+  </g>
+  <rect x="143" y="232" width="6" height="58" rx="3" fill="#f04452"/><rect x="132" y="244" width="28" height="36" rx="5" fill="#f04452"/><rect x="187" y="218" width="6" height="56" rx="3" fill="#3182f6"/><rect x="176" y="230" width="28" height="32" rx="5" fill="#3182f6"/><rect x="231" y="190" width="6" height="66" rx="3" fill="#f04452"/><rect x="220" y="202" width="28" height="44" rx="5" fill="#f04452"/><rect x="275" y="180" width="6" height="58" rx="3" fill="#3182f6"/><rect x="264" y="192" width="28" height="32" rx="5" fill="#3182f6"/><rect x="319" y="150" width="6" height="68" rx="3" fill="#f04452"/><rect x="308" y="160" width="28" height="48" rx="5" fill="#f04452"/><rect x="363" y="130" width="6" height="60" rx="3" fill="#f04452"/><rect x="352" y="140" width="28" height="38" rx="5" fill="#f04452"/>
+  <!-- person, seen from behind -->
+  <path d="M112 520C112 440 160 402 216 396H296C352 402 400 440 400 520Z" fill="url(#sweater)"/>
+  <path d="M216 396H296C290 420 222 420 216 396Z" fill="#d98a06" opacity=".55"/>
+  <rect x="232" y="356" width="48" height="52" rx="16" fill="#e9b48e"/>
+  <circle cx="203" cy="338" r="12" fill="#f3c7a4"/>
+  <circle cx="309" cy="338" r="12" fill="#f3c7a4"/>
+  <path d="M256 276c31 0 53 23 53 55 0 34-22 59-53 59s-53-25-53-59c0-32 22-55 53-55Z" fill="#161d3a"/>
+</g>
+</svg>

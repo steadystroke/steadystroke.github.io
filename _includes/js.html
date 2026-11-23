@@ -14,3 +14,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <!-- PWA: Service Worker 등록 -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('{{ "/sw.js" | prepend: site.baseurl }}');
+        });
+      }
+    </script>
